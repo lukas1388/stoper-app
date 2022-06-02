@@ -24,7 +24,7 @@ const App = () => {
   return (
     <Container>
       <Time time={time} />
-      <Buttons />
+      <Buttons setTime={setTime} setStart={setStart} />
     </Container>
   );
 };
