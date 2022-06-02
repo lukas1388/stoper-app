@@ -1,6 +1,18 @@
+import { useState } from "react";
+import Container from "./components/Container/Container";
+import Time from "./components/Time/Time";
+import Buttons from "./components/Buttons/Buttons";
+
 const App = () => {
+
+  const [time, setTime] = useState(0);
+  const [start, setStart] = useState(null);
+
   return (
-    <h1>Stoper App</h1>
+    <Container>
+      <Time />
+      <Buttons />
+    </Container>
   );
 };
 
