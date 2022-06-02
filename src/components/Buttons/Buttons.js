@@ -1,6 +1,6 @@
 const Buttons = () => {
     return (
-        <h1>Buttons</h1>
+        <h2>Buttons</h2>
     );
 };
 
